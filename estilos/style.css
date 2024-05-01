@@ -111,12 +111,11 @@ div.campo > input {
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-    -webkit-transform: translateY(-49.3%);
-    -moz-transform: translateY(-49.3%);
-    -ms-transform: translateY(-49.3%);
-    -o-transform: translateY(-49.3%);
-
-    transform: translateY(-49.3%);
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
 }
 
 form > div.campo {
