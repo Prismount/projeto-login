@@ -101,7 +101,6 @@ div.campo > input:focus-within {
 }
 
 div.campo > input {
-    background-color: #77c9c6;
     font-size: 1em;
     height: 3.9vh;
     width: 54vw;
@@ -111,11 +110,11 @@ div.campo > input {
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
+    transform: translateY(-2%);
+    -webkit-transform: translateY(-2%);
+    -moz-transform: translateY(-2%);
+    -ms-transform: translateY(-2%);
+    -o-transform: translateY(-2%);
 }
 
 form > div.campo {
@@ -177,4 +176,8 @@ form > a.botao:hover {
 
 form > a.botao > span {
     font-size: 0.8em;
+}
+
+div.campo > span.material-icons {
+    font-size: 1em;
 }
