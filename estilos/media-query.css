@@ -6,7 +6,7 @@
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     section#login {
-        width: 80vw;
+        width: 600px;
         height: 300px;
     }
 
@@ -24,21 +24,25 @@
     div.campo > input {
         background-color: #77c9c6;
         font-size: 1em;
-        height: 100%;
-        width: 89%;
+        height: 99%;
+        width: calc(100% - 11.9%);
         padding: 4px;
         border-radius: 8px;
         -webkit-border-radius: 8px;
         -moz-border-radius: 8px;
         -ms-border-radius: 8px;
         -o-border-radius: 8px;
-        -webkit-transform: translateY(-2%);
-        -moz-transform: translateY(-48%);
-        -ms-transform: translateY(-48%);
-        -o-transform: translateY(-48%);
+        -webkit-transform: translateY(-43%);
+        -moz-transform: translateY(-43%);
+        -ms-transform: translateY(-43%);
+        -o-transform: translateY(-43%);
+        transform: translateY(-43%);
+       
+        
+}
 
-        transform: translateY(-48%);
-
+form > div.campo {
+    background-color: #5f2c82;
 }
 
 div.campo > span.material-icons {
@@ -79,7 +83,7 @@ div.campo > span.material-icons {
     div.campo > input {
         background-color: #77c9c6;
         font-size: 1em;
-        height: 100%;
+        height: 99%;
         width: calc(100% - 10.2%);
         padding: 4px;
         border-radius: 8px;
@@ -87,16 +91,19 @@ div.campo > span.material-icons {
         -moz-border-radius: 8px;
         -ms-border-radius: 8px;
         -o-border-radius: 8px;
-        -webkit-transform: translateY(-48%);
-        -moz-transform: translateY(-48%);
-        -ms-transform: translateY(-48%);
-        -o-transform: translateY(-48%);
-
-        transform: translateY(-48%);
+        -webkit-transform: translateY(-43%);
+        -moz-transform: translateY(-43%);
+        -ms-transform: translateY(-43%);
+        -o-transform: translateY(-43%);
+        transform: translateY(-43%);
 }
 
 div.campo > span.material-icons {
     display: inline-block;
+}
+
+form > div.campo {
+    background-color: #5f2c82;
 }
 }
 
