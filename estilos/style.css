@@ -103,7 +103,7 @@ div.campo > input:focus-within {
 div.campo > input {
     font-size: 1em;
     height: 3.9vh;
-    width: 54vw;
+    width: 318px;
     padding: 4px;
     border-radius: 8px;
     -webkit-border-radius: 8px;
@@ -111,10 +111,10 @@ div.campo > input {
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
     transform: translateY(-2%);
-    -webkit-transform: translateY(-2%);
-    -moz-transform: translateY(-2%);
-    -ms-transform: translateY(-2%);
-    -o-transform: translateY(-2%);
+    -webkit-transition: ;
+    -moz-transition: ;
+    -ms-transition: ;
+    -o-transition: ;
 }
 
 form > div.campo {
@@ -179,5 +179,5 @@ form > a.botao > span {
 }
 
 div.campo > span.material-icons {
-    font-size: 1em;
+    display: none;
 }

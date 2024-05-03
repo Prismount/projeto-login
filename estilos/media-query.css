@@ -25,19 +25,24 @@
         background-color: #77c9c6;
         font-size: 1em;
         height: 100%;
-        width: calc(100% - 12%);
+        width: 89%;
         padding: 4px;
         border-radius: 8px;
         -webkit-border-radius: 8px;
         -moz-border-radius: 8px;
         -ms-border-radius: 8px;
         -o-border-radius: 8px;
-        -webkit-transform: translateY(-48%);
+        -webkit-transform: translateY(-2%);
         -moz-transform: translateY(-48%);
         -ms-transform: translateY(-48%);
         -o-transform: translateY(-48%);
 
         transform: translateY(-48%);
+
+}
+
+div.campo > span.material-icons {
+    display: inline-block;
 }
 }
 
@@ -88,6 +93,10 @@
         -o-transform: translateY(-48%);
 
         transform: translateY(-48%);
+}
+
+div.campo > span.material-icons {
+    display: inline-block;
 }
 }
 
